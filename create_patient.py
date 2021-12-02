@@ -8,7 +8,9 @@ def create_patients():
     dataset=[]
     f = open('./dataset/true_condition.json', encoding="utf8")
     data = json.load(f)
-
+    f.close()
+    f = open('./dataset/therapy.json', encoding="utf8")
+    data_th = json.load(f)
     start_date = datetime.date(2020, 1, 1)
     end_date = datetime.date(2020, 12, 1)
     time_between_dates = end_date - start_date
@@ -34,9 +36,32 @@ def create_patients():
             #create a condition
             date=str(random_date.year)+"-"+str(random_date.month)+"-"+str(random_date.day)
             conditions.append({"id":"PC"+str(i),"diagnosed":date,"cured":date,"kind":id_condition})
+        #creation of trial
+        nb_therapy=random.randint(3,5)
+        trials=[]
+        list_id_taken=[]
+        for i in range(nb_therapy):
+            a=False
+            #at least one condition need to be link to one trial
+            while(a==False):
+                id_condition=random.randint(0,len(list_id_condition)-1)
+                if(id_condition in list_id_taken and len(list_id_taken)>=len(conditions)):
+                    a=True
+                if(id_condition not in list_id_taken):
+                    a=True
+                    list_id_taken.append(id_condition)
+            date=""
+            id=""
+            for item in conditions:
+                if(item["kind"]==list_id_condition[id_condition]):
+                   date=item["diagnosed"] 
+                   id=item["id"]
+            id_therapy=data_th[random.randint(0,len(data_th)-1)]["id"]
+            trials.append({"id":"TR"+str(i),"start":date,"end":date,"condition":id,"therapy":id_therapy,"sucessful":str(random.randint(0,100))+"%"})
 
-        dataset.append(["A"+str(j),names.get_full_name(),conditions])
-        dataset_JSON=pd.DataFrame(dataset,columns=["id","name","conditions"])
+
+        dataset.append(["A"+str(j),names.get_full_name(),conditions,trials])
+        dataset_JSON=pd.DataFrame(dataset,columns=["id","name","conditions","trials"])
         dataset_JSON.to_json("./dataset/patients.json",orient="records")
 
 create_patients()
