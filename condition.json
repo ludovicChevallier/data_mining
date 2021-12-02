@@ -1,0 +1,2289 @@
+{
+  "parent": {
+    "apiUrl": "https://www.nhsinform.scot/illnesses-and-conditions.json",
+    "type": "dtSubject",
+    "name": "Illnesses and conditions",
+    "url": "https://www.nhsinform.scot/illnesses-and-conditions",
+    "summary": "Includes information on cancer, diabetes, stress, sciatica and infections"
+  },
+  "sections": [
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Abdominal aortic aneurysm",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/abdominal-aortic-aneurysm",
+      "summary": "Learn about abdominal aortic aneurysm symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Acne",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/acne",
+      "summary": "Learn about acne symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Acute cholecystitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/acute-cholecystitis",
+      "summary": "Learn about acute cholecystitis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Acute lymphoblastic leukaemia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/acute-lymphoblastic-leukaemia",
+      "summary": "Learn about acute lymphoblastic leukaemia, a cancer of the white blood cells"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Acute lymphoblastic leukaemia: Children",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/acute-lymphoblastic-leukaemia-children",
+      "summary": "Around three out of four childhood leukaemia cases are acute lymphoblastic"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Acute lymphoblastic leukaemia: Teenagers and young adults",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/acute-lymphoblastic-leukaemia-teenagers-and-young-adults",
+      "summary": "Learn more about acute lymphoblastic leukaemia in young people"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Acute myeloid leukaemia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/acute-myeloid-leukaemia",
+      "summary": "Learn about acute myeloid leukaemia, a cancer of the white blood cells"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Acute myeloid leukaemia: Children",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/acute-myeloid-leukaemia-children",
+      "summary": "Learn more about acute myeloid leukaemia, an overproduction of myeloid white blood cells"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Acute myeloid leukaemia: Teenagers and young adults",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/acute-myeloid-leukaemia-teenagers-and-young-adults",
+      "summary": "Information about acute myeloid leukaemia, a type of blood cancer that can affect young people"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Acute pancreatitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/acute-pancreatitis",
+      "summary": "Learn about acute pancreatitis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Addison's disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/addisons-disease",
+      "summary": "Learn about Addison's disease symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Alcohol-related liver disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/alcohol-related-liver-disease",
+      "summary": "Learn about alcohol-related liver disease symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Allergic rhinitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/allergic-rhinitis",
+      "summary": "Learn about allergic rhinitis symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Allergies",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/allergies",
+      "summary": "Learn more about allergies and their symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Alzheimer's disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/alzheimers-disease",
+      "summary": "Learn about Alzheimer's disease symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Anal cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/anal-cancer",
+      "summary": "Learn about anal cancer, a cancer that affects the end of the large bowel"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Anaphylaxis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/anaphylaxis",
+      "summary": "Learn about anaphylaxis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Angioedema",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/angioedema",
+      "summary": "Learn about angioedema symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Ankylosing spondylitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/ankylosing-spondylitis",
+      "summary": "Learn about ankylosing spondylitis"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Anorexia nervosa",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/anorexia-nervosa",
+      "summary": "Learn about anorexia nervosa symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Anxiety",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/anxiety",
+      "summary": "Learn about the symptoms and treatments of generalised anxiety disorder (GAD)"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Anxiety disorders in children",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/anxiety-disorders-in-children",
+      "summary": "Learn about anxiety disorders in children"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Appendicitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/appendicitis",
+      "summary": "Learn about appendicitis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Arthritis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/arthritis",
+      "summary": "Learn about arthritis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Asbestosis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/asbestosis",
+      "summary": "Learn about asbestosis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Asthma",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/asthma",
+      "summary": "Learn about asthma symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Atopic eczema",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/atopic-eczema",
+      "summary": "Learn about atopic eczema symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Attention deficit hyperactivity disorder (ADHD)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/attention-deficit-hyperactivity-disorder-adhd",
+      "summary": "Learn about attention deficit hyperactivity disorder symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "A",
+      "name": "Autistic spectrum disorder (ASD)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/a/autistic-spectrum-disorder-asd",
+      "summary": "Learn about autism spectrum disorder symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Bacterial vaginosis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/bacterial-vaginosis",
+      "summary": "Learn about bacterial vaginosis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Benign prostate enlargement",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/benign-prostate-enlargement",
+      "summary": "Learn about benign prostate enlargement symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Bile duct cancer (cholangiocarcinoma)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/bile-duct-cancer-cholangiocarcinoma",
+      "summary": "Learn about cholangiocarcinoma, a rare cancer that can develop in the bile duct"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Binge eating",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/binge-eating",
+      "summary": "Learn about binge eating causes and effects"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Bipolar disorder",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/bipolar-disorder",
+      "summary": "Learn about bipolar disorder symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Bladder cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/bladder-cancer",
+      "summary": "Learn about bladder cancer which can develop in the lining of the bladder"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Blood poisoning (sepsis)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/blood-poisoning-sepsis",
+      "summary": "Learn about sepsis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Bone cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/bone-cancer",
+      "summary": "Learn about the symptoms and treatments of primary cancer of the bones"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Bone cancer: Teenagers and young adults",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/bone-cancer-teenagers-and-young-adults",
+      "summary": "Symptoms and treatment information on different types of bone cancer"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Bowel cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/bowel-cancer",
+      "summary": "Learn more about bowel cancer, one of the most common types of cancer in the UK"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Bowel incontinence",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/bowel-incontinence",
+      "summary": "Learn about bowel incontinence causes and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Bowel polyps",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/bowel-polyps",
+      "summary": "Learn about bowel polyps causes and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Brain stem death",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/brain-stem-death",
+      "summary": "Learn about brain stem death and how it's diagnosed"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Brain tumours",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/brain-tumours",
+      "summary": "Learn about both cancerous and non-cancerous brain tumours"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Brain tumours: Children",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/brain-tumours-children",
+      "summary": "Read more about brain tumours in children, including signs and symptoms"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Brain tumours: Teenagers and young adults",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/brain-tumours-teenagers-and-young-adults",
+      "summary": "Information on brain tumours in teenagers and young adults"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Breast cancer (female)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/breast-cancer-female",
+      "summary": "Learn more about the symptoms and treatments of breast cancer, the most common type of cancer in the UK"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Breast cancer (male)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/breast-cancer-male",
+      "summary": "Breast cancer is often thought only to affect women, but men can also develop it"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Bronchiectasis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/bronchiectasis",
+      "summary": "Learn about bronchiectasis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Bronchitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/bronchitis",
+      "summary": "Learn about bronchitis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Bulimia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/bulimia",
+      "summary": "Learn about bulimia symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "B",
+      "name": "Bunion",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/b/bunion",
+      "summary": "Learn about bunion symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Carcinoid syndrome and carcinoid tumours",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/carcinoid-syndrome-and-carcinoid-tumours",
+      "summary": "Learn about carcinoid tumours, and their symptoms known as carcinoid syndrome"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Catarrh",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/catarrh",
+      "summary": "Learn about catarrh symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Cellulitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/cellulitis",
+      "summary": "Learn about cellulitis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Cervical cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/cervical-cancer",
+      "summary": "Cervical cancer develops in a woman's cervix, learn about its symptoms and how it can be prevented"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Chest infection",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/chest-infection",
+      "summary": "Learn about chest infection symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Chest pain",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/chest-pain",
+      "summary": "What to do if you have chest pain and when to seek help"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Chickenpox",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/chickenpox",
+      "summary": "Learn about chickenpox symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Chilblains",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/chilblains",
+      "summary": "Learn more about chilblains symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Chlamydia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/chlamydia",
+      "summary": "Learn about chlamydia symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Chronic fatigue syndrome",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/chronic-fatigue-syndrome",
+      "summary": "Learn about chronic fatigue syndrome symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Chronic kidney disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/chronic-kidney-disease",
+      "summary": "Learn about chronic kidney disease symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Chronic lymphocytic leukaemia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/chronic-lymphocytic-leukaemia",
+      "summary": "Learn about chronic lymphocytic leukaemia, a cancer of the white blood cells"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Chronic myeloid leukaemia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/chronic-myeloid-leukaemia",
+      "summary": "Learn about chronic myeloid leukaemia, a cancer of the white blood cells"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Chronic obstructive pulmonary disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/chronic-obstructive-pulmonary-disease",
+      "summary": "Learn more about chronic obstructive pulmonary disease (COPD)"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Chronic pancreatitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/chronic-pancreatitis",
+      "summary": "Learn about chronic pancreatitis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Cirrhosis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/cirrhosis",
+      "summary": "Learn about cirrhosis symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Clostridium difficile",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/clostridium-difficile",
+      "summary": "Learn about clostridium difficile symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Coeliac disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/coeliac-disease",
+      "summary": "Learn about coeliac disease symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Cold sore",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/cold-sore",
+      "summary": "Learn about cold sore symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Coma",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/coma",
+      "summary": "Learn what a coma is and the recovery process"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Common cold",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/common-cold",
+      "summary": "Learn about common cold symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Common heart conditions",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/common-heart-conditions",
+      "summary": "Some of the conditions and problems that can affect your heart, including angina and heart failure"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Congenital heart disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/congenital-heart-disease",
+      "summary": "These are conditions which develop in the womb, find out more about the causes and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Conjunctivitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/conjunctivitis",
+      "summary": "Learn about conjunctivitis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Constipation",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/constipation",
+      "summary": "Learn about constipation symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Coronavirus (COVID-19)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/coronavirus-covid-19",
+      "summary": "Latest guidance about COVID-19 from NHS Scotland and the Scottish Government"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Cough",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/cough",
+      "summary": "Learn about cough causes and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Crohn's disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/crohns-disease",
+      "summary": "Learn about Crohn's disease symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Croup",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/croup",
+      "summary": "Croup is a childhood condition of the windpipe, airways and voice box"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Cystic fibrosis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/cystic-fibrosis",
+      "summary": "Learn about cystic fibrosis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "C",
+      "name": "Cystitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/c/cystitis",
+      "summary": "Learn about cystitis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Deafblindness",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/deafblindness",
+      "summary": "Learn about deafblindness symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Deep vein thrombosis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/deep-vein-thrombosis",
+      "summary": "Learn about deep vein thrombosis (DVT)"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Dehydration",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/dehydration",
+      "summary": "Learn about dehydration symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Dementia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/dementia",
+      "summary": "Learn about dystonia causes and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Dementia with Lewy bodies",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/dementia-with-lewy-bodies",
+      "summary": "Learn about dementia with Lewy bodies"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Dental abscess",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/dental-abscess",
+      "summary": "Learn about dental abscess symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Depression",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/depression",
+      "summary": "Learn about depression symptoms, causes, and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Dermatitis herpetiformis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/dermatitis-herpetiformis",
+      "summary": "​​Learn about dermatitis herpetiformis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Diabetes",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/diabetes",
+      "summary": "Learn about diabetes symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Diarrhoea",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/diarrhoea",
+      "summary": "Learn about diarrhoea causes and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Discoid eczema",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/discoid-eczema",
+      "summary": "Learn about discoid eczema symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Diverticular disease and diverticulitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/diverticular-disease-and-diverticulitis",
+      "summary": "Diverticular disease and diverticulitis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Dizziness (Lightheadedness)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/dizziness-lightheadedness",
+      "summary": "What to do if you feel dizzy or lightheaded and when to seek help"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Down's syndrome",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/downs-syndrome",
+      "summary": "Learn about Down's syndrome, its causes and living with the condition"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Dry mouth",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/dry-mouth",
+      "summary": "Learn about the causes and treatment of a dry mouth"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Dysphagia (swallowing problems)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/dysphagia-swallowing-problems",
+      "summary": "Learn about dysphagia causes and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "D",
+      "name": "Dystonia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/d/dystonia",
+      "summary": "Learn about dystonia causes and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "E",
+      "name": "Earache",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/e/earache",
+      "summary": "Learn about earache symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "E",
+      "name": "Earwax build-up",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/e/earwax-build-up",
+      "summary": "Learn about earwax build-up symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "E",
+      "name": "Ebola virus disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/e/ebola-virus-disease",
+      "summary": "Learn about Ebola virus disease symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "E",
+      "name": "Ectopic pregnancy",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/e/ectopic-pregnancy",
+      "summary": "Learn about ectopic pregnancy symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "E",
+      "name": "Endometriosis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/e/endometriosis",
+      "summary": "Learn about endometriosis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "E",
+      "name": "Epilepsy",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/e/epilepsy",
+      "summary": "Learn about epilepsy symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "E",
+      "name": "Erectile dysfunction (impotence)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/e/erectile-dysfunction-impotence",
+      "summary": "Learn about erectile dysfunction causes and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "E",
+      "name": "Escherichia coli (E. coli) O157",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/e/escherichia-coli-e-coli-o157",
+      "summary": "Learn about escherichia coli O157 symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "E",
+      "name": "Ewing sarcoma",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/e/ewing-sarcoma",
+      "summary": "Learn about the symptoms and treatments of Ewing sarcoma, a rare type of bone cancer"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "E",
+      "name": "Ewing sarcoma: Children",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/e/ewing-sarcoma-children",
+      "summary": "Ewing sarcoma is a type of bone cancer most common in children and young people"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "E",
+      "name": "Eye cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/e/eye-cancer",
+      "summary": "Learn about melanoma of the eye, how it can be detected and its treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "F",
+      "name": "Febrile seizures",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/f/febrile-seizures",
+      "summary": "Learn about febrile seizure symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "F",
+      "name": "Fever in adults",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/f/fever-in-adults",
+      "summary": "Learn about fever in adults and its causes"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "F",
+      "name": "Fever in children",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/f/fever-in-children",
+      "summary": "Learn about fever in children and its causes"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "F",
+      "name": "Fibroids",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/f/fibroids",
+      "summary": "Learn about fibroids symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "F",
+      "name": "Fibromyalgia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/f/fibromyalgia",
+      "summary": "Learn about fibromyalgia symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "F",
+      "name": "Flatulence",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/f/flatulence",
+      "summary": "Learn about flatulence causes and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "F",
+      "name": "Flu",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/f/flu",
+      "summary": "Learn about flu symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "F",
+      "name": "Foetal alcohol syndrome",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/f/foetal-alcohol-syndrome",
+      "summary": "Learn about foetal alcohol syndrome symptoms and outlook"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "F",
+      "name": "Food poisoning",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/f/food-poisoning",
+      "summary": "Learn about food poisoning symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "F",
+      "name": "Fungal nail infection",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/f/fungal-nail-infection",
+      "summary": "Learn about fungal nail infection symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "G",
+      "name": "Gallbladder cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/g/gallbladder-cancer",
+      "summary": "Learn about gallbladder cancer, a rare cancer that can develop in the gallbladder, a small organ beneath the liver"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "G",
+      "name": "Gallstones",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/g/gallstones",
+      "summary": "Learn about gallstones symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "G",
+      "name": "Ganglion cyst",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/g/ganglion-cyst",
+      "summary": "Learn about ganglion cyst symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "G",
+      "name": "Gastroenteritis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/g/gastroenteritis",
+      "summary": "Learn about gastroenteritis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "G",
+      "name": "Gastro-oesophageal reflux disease (GORD)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/g/gastro-oesophageal-reflux-disease-gord",
+      "summary": "Learn about gastro-oesophageal reflux disease (GORD)"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "G",
+      "name": "Genital herpes",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/g/genital-herpes",
+      "summary": "Learn about genital herpes symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "G",
+      "name": "Genital warts",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/g/genital-warts",
+      "summary": "Learn about genital warts symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "G",
+      "name": "Germ cell tumours",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/g/germ-cell-tumours",
+      "summary": "Learn more about germ cell tumours, a type of cancer that can develop in the cells that produce eggs or sperm"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "G",
+      "name": "Glandular fever",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/g/glandular-fever",
+      "summary": "Learn about glandular fever symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "G",
+      "name": "Gonorrhoea",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/g/gonorrhoea",
+      "summary": "Learn about gonorrhoea symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "G",
+      "name": "Gout",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/g/gout",
+      "summary": "Learn about gout symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "G",
+      "name": "Gum disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/g/gum-disease",
+      "summary": "Learn about gum disease symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Haemorrhoids (piles)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/haemorrhoids-piles",
+      "summary": "Learn about haemorrhoids symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Hairy cell leukaemia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/hairy-cell-leukaemia",
+      "summary": "Learn about hairy cell leukaemia, a rare type of chronic leukaemia"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Hand, foot and mouth disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/hand-foot-and-mouth-disease",
+      "summary": "Learn about hand, foot and mouth disease"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Hay fever",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/hay-fever",
+      "summary": "Learn about hay fever symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Head and neck cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/head-and-neck-cancer",
+      "summary": "Learn about the symptoms and treatments of cancers that can develop in the head and neck"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Head lice and nits",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/head-lice-and-nits",
+      "summary": "Learn about head lice detection and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Headaches",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/headaches",
+      "summary": "Learn about the causes and treatment and causes of headaches."
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Hearing loss",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/hearing-loss",
+      "summary": "Learn about hearing loss symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Heart failure",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/heart-failure",
+      "summary": "Learn about heart failure symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Hepatitis A",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/hepatitis-a",
+      "summary": "Learn more about hepatitis A symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Hepatitis B",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/hepatitis-b",
+      "summary": "Learn more about hepatitis B symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Hepatitis C",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/hepatitis-c",
+      "summary": "Learn about hepatitis C symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Hiatus hernia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/hiatus-hernia",
+      "summary": "Learn about hiatus hernia symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "High cholesterol",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/high-cholesterol",
+      "summary": "Learn about cholesterol, its effects and treating high cholesterol"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "HIV",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/hiv",
+      "summary": "Learn about HIV symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Hodgkin lymphoma",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/hodgkin-lymphoma",
+      "summary": "Learn about Hodgkin lymphoma, an uncommon cancer that develops in the lymphatic system"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Hodgkin lymphoma: Children",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/hodgkin-lymphoma-children",
+      "summary": "Learn more about Hodgkin lymphoma, a type of blood cancer"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Hodgkin lymphoma: Teenagers and young adults",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/hodgkin-lymphoma-teenagers-and-young-adults",
+      "summary": "Information on Hodgkin lymphoma, a cancer of the lymphatic system, one of the body’s defenses against infection"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Huntington's disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/huntingtons-disease",
+      "summary": "Learn about Huntington's disease symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Hyperglycaemia (high blood sugar)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/hyperglycaemia-high-blood-sugar",
+      "summary": "Learn about hyperglycaemia (high blood sugar)"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Hyperhidrosis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/hyperhidrosis",
+      "summary": "Learn about hyperhidrosis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "H",
+      "name": "Hypoglycaemia (low blood sugar)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/h/hypoglycaemia-low-blood-sugar",
+      "summary": "Learn about hypoglycaemia symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "I",
+      "name": "Idiopathic pulmonary fibrosis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/i/idiopathic-pulmonary-fibrosis",
+      "summary": "Learn about idiopathic pulmonary fibrosis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "I",
+      "name": "Impetigo",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/i/impetigo",
+      "summary": "Learn about impetigo symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "I",
+      "name": "Indigestion",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/i/indigestion",
+      "summary": "Learn about indigestion symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "I",
+      "name": "Ingrown toenail",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/i/ingrown-toenail",
+      "summary": "Learn about the causes and treatment of an ingrown toenail"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "I",
+      "name": "Inherited heart conditions",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/i/inherited-heart-conditions",
+      "summary": "These are passed on through your parents' gene and cover a wide range of cardiac conditions"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "I",
+      "name": "Insomnia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/i/insomnia",
+      "summary": "Learn about insomnia causes and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "I",
+      "name": "Iron deficiency anaemia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/i/iron-deficiency-anaemia",
+      "summary": "Learn about iron deficiency anaemia symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "I",
+      "name": "Irritable bowel syndrome (IBS)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/i/irritable-bowel-syndrome-ibs",
+      "summary": "Learn about irritable bowel syndrome symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "I",
+      "name": "Irritable hip",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/i/irritable-hip",
+      "summary": "Learn about irritable hip symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "I",
+      "name": "Itching",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/i/itching",
+      "summary": "Learn about itching causes and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "I",
+      "name": "Itchy bottom",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/i/itchy-bottom",
+      "summary": "Learn about itchy bottom causes and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "K",
+      "name": "Kaposi's sarcoma",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/k/kaposis-sarcoma",
+      "summary": "Learn about Kaposi's sarcoma, a rare type of cancer that affects the skin and internal organs"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "K",
+      "name": "Kidney cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/k/kidney-cancer",
+      "summary": "Learn about the symptoms and treatments of kidney cancer, the eighth most common cancer in adults in the UK"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "K",
+      "name": "Kidney infection",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/k/kidney-infection",
+      "summary": "Learn about kidney infection symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "K",
+      "name": "Kidney stones",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/k/kidney-stones",
+      "summary": "Learn about kidney stones symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Labyrinthitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/labyrinthitis",
+      "summary": "Learn about labyrinthitis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Lactose intolerance",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/lactose-intolerance",
+      "summary": "Learn about lactose intolerance symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Langerhans cell histiocytosis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/langerhans-cell-histiocytosis",
+      "summary": "Information is about a condition called Langerhans cell histiocytosis which is classed as a type of cancer"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Laryngeal (larynx) cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/laryngeal-larynx-cancer",
+      "summary": "Learn about laryngeal cancer which develops in the larynx (voice box)"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Laryngitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/laryngitis",
+      "summary": "Learn about laryngitis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Leg cramps",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/leg-cramps",
+      "summary": "Learn about the possible causes of leg cramps and their treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Lichen planus",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/lichen-planus",
+      "summary": "Learn about lichen planus symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Liver cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/liver-cancer",
+      "summary": "Learn about symptoms and treatments of primary cancer of the liver"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Liver disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/liver-disease",
+      "summary": "Learn about liver disease types and causes"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Liver tumours",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/liver-tumours",
+      "summary": "Information on liver tumours in children including symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Loss of libido",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/loss-of-libido",
+      "summary": "Learn what causes a loss of libido and how to treat it"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Lung cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/lung-cancer",
+      "summary": "Learn about the symptoms and treatments of lung cancer, one of the most common cancer types in the UK"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Lupus",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/lupus",
+      "summary": "Learn about lupus symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Lyme disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/lyme-disease",
+      "summary": "Learn about Lyme disease symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Lymphoedema",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/lymphoedema",
+      "summary": "Learn about lymphoedema symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "L",
+      "name": "Lymphogranuloma venereum (LGV)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/l/lymphogranuloma-venereum-lgv",
+      "summary": "Learn about lymphogranuloma venereum (LGV) symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Malaria",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/malaria",
+      "summary": "Learn about malaria symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Malignant brain tumour (cancerous)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/malignant-brain-tumour-cancerous",
+      "summary": "Learn about the symptoms and treatments of malignant brain tumours"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Malnutrition",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/malnutrition",
+      "summary": "Learn about malnutrition symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Measles",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/measles",
+      "summary": "Learn about the symptoms of measles and how it can be treated"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Meningitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/meningitis",
+      "summary": "Learn about meningitis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Menopause",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/menopause",
+      "summary": "Learn about menopause symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Mesothelioma",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/mesothelioma",
+      "summary": "Learn about mesothelioma, a type of cancer that develops in the outer lining of some of the body's organs"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Middle ear infection (otitis media)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/middle-ear-infection-otitis-media",
+      "summary": "Learn about middle ear infection symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Migraine",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/migraine",
+      "summary": "Learn about what can cause migraines and its treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Miscarriage",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/miscarriage",
+      "summary": "Learn about miscarriage symptoms and recovery"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Motor neurone disease (MND)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/motor-neurone-disease-mnd",
+      "summary": "Learn about motor neurone disease (MND)"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Mouth cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/mouth-cancer",
+      "summary": "Learn about the symptoms and treatments of mouth cancer, also known as oral cancer"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Mouth ulcer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/mouth-ulcer",
+      "summary": "Learn about mouth ulcer symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Multiple myeloma",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/multiple-myeloma",
+      "summary": "Learn about the symptoms and treatments of multiple myeloma, a type of bone cancer"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Multiple sclerosis (MS)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/multiple-sclerosis-ms",
+      "summary": "Learn about multiple sclerosis (MS) symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Mumps",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/mumps",
+      "summary": "Learn about mumps symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "M",
+      "name": "Meniere's disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/m/menieres-disease",
+      "summary": "Learn about Ménière's disease symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "N",
+      "name": "Nasal and sinus cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/n/nasal-and-sinus-cancer",
+      "summary": "Learn about symptoms and treatments of cancer of the nasal cavity and sinuses"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "N",
+      "name": "Nasopharyngeal cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/n/nasopharyngeal-cancer",
+      "summary": "Learn about nasopharyngeal cancer, a rare type that affects a part of the throat, nose and mouth"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "N",
+      "name": "Neuroblastoma",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/n/neuroblastoma",
+      "summary": "Learn about neuroblastoma, a rare cancer that mostly affects children and young people"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "N",
+      "name": "Neuroblastoma: Children",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/n/neuroblastoma-children",
+      "summary": "Neuroblastoma is the most common solid tumour in children that occurs outside of the brain and makes up 8% of the total number of children’s cancers."
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "N",
+      "name": "Neuroendocrine tumours",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/n/neuroendocrine-tumours",
+      "summary": "Learn about symptoms and treatments of neuroendocrine tumours, a wide-ranging and rare group of tumours"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "N",
+      "name": "Non-alcoholic fatty liver disease (NAFLD)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/n/non-alcoholic-fatty-liver-disease-nafld",
+      "summary": "Learn about non-alcoholic fatty liver disease"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "N",
+      "name": "Non-Hodgkin lymphoma",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/n/non-hodgkin-lymphoma",
+      "summary": "Learn about non-Hodgkin lymphoma, a cancer that can develop in part of the circulatory system"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "N",
+      "name": "Non-Hodgkin lymphoma: Children",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/n/non-hodgkin-lymphoma-children",
+      "summary": "Information on non-Hodgkin lymphoma, a type of blood cancer that can be found in children"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "N",
+      "name": "Norovirus",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/n/norovirus",
+      "summary": "Learn about norovirus symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "N",
+      "name": "Nosebleed",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/n/nosebleed",
+      "summary": "Learn about nosebleed causes and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "O",
+      "name": "Obesity",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/o/obesity",
+      "summary": "Learn about obesity causes and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "O",
+      "name": "Obsessive compulsive disorder (OCD)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/o/obsessive-compulsive-disorder-ocd",
+      "summary": "Learn about obsessive compulsive disorder (OCD) symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "O",
+      "name": "Obstructive sleep apnoea",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/o/obstructive-sleep-apnoea",
+      "summary": "Learn about obstructive sleep apnoea (OSA) symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "O",
+      "name": "Oesophageal cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/o/oesophageal-cancer",
+      "summary": "Learn about oesophageal cancer, a cancer that can develop in the tube that carries food from the throat to the stomach"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "O",
+      "name": "Oral thrush in adults",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/o/oral-thrush-in-adults",
+      "summary": "Learn about oral thrush symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "O",
+      "name": "Osteoarthritis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/o/osteoarthritis",
+      "summary": "Learn about osteoarthritis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "O",
+      "name": "Osteoporosis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/o/osteoporosis",
+      "summary": "Learn about osteoporosis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "O",
+      "name": "Osteosarcoma",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/o/osteosarcoma",
+      "summary": "Information on symptoms and treatments of osteosarcoma, a type of bone cancer"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "O",
+      "name": "Otitis externa",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/o/otitis-externa",
+      "summary": "Learn about otitis externa symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "O",
+      "name": "Ovarian cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/o/ovarian-cancer",
+      "summary": "Learn about ovarian cancer, the fifth most common cancer among women"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "O",
+      "name": "Ovarian cancer: Teenagers and young adults",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/o/ovarian-cancer-teenagers-and-young-adults",
+      "summary": "Information on cancer of the ovaries, part of the female reproductive system"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "O",
+      "name": "Ovarian cyst",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/o/ovarian-cyst",
+      "summary": "Learn about ovarian cyst symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "O",
+      "name": "Overactive thyroid",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/o/overactive-thyroid",
+      "summary": "Learn about overactive thyroid symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Paget's disease of the nipple",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/pagets-disease-of-the-nipple",
+      "summary": "Learn about Paget's disease of the nipple, a rare type of breast cancer"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Pancreatic cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/pancreatic-cancer",
+      "summary": "Learn about cancer of the pancreas, a large gland that's part of the digestive system"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Panic disorder",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/panic-disorder",
+      "summary": "Learn about panic disorder symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Parkinson's disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/parkinsons-disease",
+      "summary": "Learn about Parkinson's disease symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Pelvic inflammatory disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/pelvic-inflammatory-disease",
+      "summary": "Learn about pelvic inflammatory disease symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Pelvic organ prolapse",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/pelvic-organ-prolapse",
+      "summary": "Learn about pelvic organ prolapse symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Penile cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/penile-cancer",
+      "summary": "Learn about penile cancer, a rare type of cancer that occurs on the skin or tissue of the penis."
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Peripheral neuropathy",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/peripheral-neuropathy",
+      "summary": "Learn about peripheral neuropathy symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Personality disorder",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/personality-disorder",
+      "summary": "Learn about personality disorder symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Pleurisy",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/pleurisy",
+      "summary": "Learn about pleurisy symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Pneumonia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/pneumonia",
+      "summary": "Learn about pneumonia symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Polymyalgia rheumatica",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/polymyalgia-rheumatica",
+      "summary": "Learn about polymyalgia rheumatica (PMR) symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Post-traumatic stress disorder (PTSD)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/post-traumatic-stress-disorder-ptsd",
+      "summary": "Learn about post-traumatic stress disorder symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Postnatal depression",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/postnatal-depression",
+      "summary": "Learn about postnatal depression symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Pregnancy and baby",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/pregnancy-and-baby",
+      "summary": "Everything you want to know about getting pregnant, being pregnant or caring for your new baby"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Pressure ulcers",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/pressure-ulcers",
+      "summary": "Learn about pressure ulcers (bedsores)"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Prostate cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/prostate-cancer",
+      "summary": "Learn about prostate cancer, the most common cancer in men in the UK"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Psoriasis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/psoriasis",
+      "summary": "Learn about psoriasis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Psoriatic arthritis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/psoriatic-arthritis",
+      "summary": "Learn more about psoriatic arthritis"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Psychosis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/psychosis",
+      "summary": "Learn about psychosis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "P",
+      "name": "Pubic lice",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/p/pubic-lice",
+      "summary": "Learn about pubic lice symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "R",
+      "name": "Rare tumours",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/r/rare-tumours",
+      "summary": "Childhood cancers are rare but there are a number of very rare types"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "R",
+      "name": "Raynaud's phenomenon",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/r/raynauds-phenomenon",
+      "summary": "Learn about Raynaud's phenomenon symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "R",
+      "name": "Reactive arthritis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/r/reactive-arthritis",
+      "summary": "Learn about reactive arthritis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "R",
+      "name": "Restless legs syndrome",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/r/restless-legs-syndrome",
+      "summary": "Learn about restless legs syndrome symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "R",
+      "name": "Retinoblastoma",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/r/retinoblastoma",
+      "summary": "Learn about retinoblastoma, a rare type of eye cancer that can affect young children"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "R",
+      "name": "Retinoblastoma: Children",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/r/retinoblastoma-children",
+      "summary": "Informtaion on retinoblastoma, an uncommon eye cancer that usually affects children under five"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "R",
+      "name": "Rhabdomyosarcoma",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/r/rhabdomyosarcoma",
+      "summary": "Information on rhabdomyosarcoma, a type of soft tissue tumour"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "R",
+      "name": "Rheumatoid arthritis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/r/rheumatoid-arthritis",
+      "summary": "Learn about rheumatoid arthritis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "R",
+      "name": "Ringworm and other fungal infections",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/r/ringworm-and-other-fungal-infections",
+      "summary": "Learn about ringworm symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "R",
+      "name": "Rosacea",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/r/rosacea",
+      "summary": "Learn about rosacea symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Scabies",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/scabies",
+      "summary": "Learn about scabies symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Scarlet fever",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/scarlet-fever",
+      "summary": "Learn about scarlet fever symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Schizophrenia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/schizophrenia",
+      "summary": "Learn about schizophrenia symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Scoliosis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/scoliosis",
+      "summary": "Learn about scoliosis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Septic shock",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/septic-shock",
+      "summary": "Learn about septic shock symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Shingles",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/shingles",
+      "summary": "Learn about shingles symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Shortness of breath",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/shortness-of-breath",
+      "summary": "Learn about the causes of shortness of breath and when to see a doctor"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Sickle cell disease",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/sickle-cell-disease",
+      "summary": "Learn about the different types and symptoms of sickle cell disease"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Sinusitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/sinusitis",
+      "summary": "Learn about sinusitis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Sjogren's syndrome",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/sjogrens-syndrome",
+      "summary": "Learn about Sjögren's syndrome symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Skin cancer (melanoma)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/skin-cancer-melanoma",
+      "summary": "Learn about melanoma, a type of skin cancer that can spread to other organs in the body"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Skin cancer (non-melanoma)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/skin-cancer-non-melanoma",
+      "summary": "Learn about non-melanoma skin cancer which can develop in the upper layers of skin"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Slapped cheek syndrome",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/slapped-cheek-syndrome",
+      "summary": "Learn about slapped cheek syndrome symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Soft tissue sarcomas",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/soft-tissue-sarcomas",
+      "summary": "Soft tissue sarcomas can develop in tissue that surrounds other organs and body structures"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Soft tissue sarcomas: Teenagers and young adults",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/soft-tissue-sarcomas-teenagers-and-young-adults",
+      "summary": "Information including the symptoms and treatments of the different types of soft tissue sarcoma"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Sore throat",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/sore-throat",
+      "summary": "Learn about sore throat causes and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Spleen problems and spleen removal",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/spleen-problems-and-spleen-removal",
+      "summary": "Problems with the spleen and living well without a spleen"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Stillbirth",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/stillbirth",
+      "summary": "Learn about stillbirth causes and the support available"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Stomach ache and abdominal pain",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/stomach-ache-and-abdominal-pain",
+      "summary": "Learn about stomach ache and abdominal pain"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Stomach cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/stomach-cancer",
+      "summary": "Learn about the symptoms, treatments and different types of stomach cancer"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Stomach ulcer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/stomach-ulcer",
+      "summary": "Learn about stomach ulcer symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Stress, anxiety and low mood",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/stress-anxiety-and-low-mood",
+      "summary": "Advice dealing with low mood, anxiety, phobias, stress and where you can get help"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Stroke",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/stroke",
+      "summary": "Learn more about stroke signs, symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Sudden infant death syndrome (SIDS)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/sudden-infant-death-syndrome-sids",
+      "summary": "Learn about sudden infant death syndrome (SIDS)"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Suicide",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/suicide",
+      "summary": "Learn about why people might attempt suicide and where to find help"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Sunburn",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/sunburn",
+      "summary": "Learn about sunburn and its treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Swollen glands",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/swollen-glands",
+      "summary": "Swollen glands are usually caused by a minor infection, although sometimes can be more serious"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "S",
+      "name": "Syphilis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/s/syphilis",
+      "summary": "Learn about syphilis symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Testicular cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/testicular-cancer",
+      "summary": "Learn about testicular cancer, a less common type of cancer which tends to affect men between 15 and 49 years of age"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Testicular cancer: Teenagers and young adults",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/testicular-cancer-teenagers-and-young-adults",
+      "summary": "Symptoms of testicular cancer and how it can be treated"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Testicular lumps and swellings",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/testicular-lumps-and-swellings",
+      "summary": "Lumps and swellings in the testicles are relatively common, and can have a number of different causes"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Thirst",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/thirst",
+      "summary": "Learn about the causes of thirst"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Threadworms",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/threadworms",
+      "summary": "Learn about threadworms symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Thrush",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/thrush",
+      "summary": "Learn about thrush symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Thrush in men",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/thrush-in-men",
+      "summary": "Learn about thrush symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Thyroid cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/thyroid-cancer",
+      "summary": "Learn about thyroid cancer, a rare type of cancer that affects the thyroid gland located at the base of the neck"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Thyroid cancer: Teenagers and young adults",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/thyroid-cancer-teenagers-and-young-adults",
+      "summary": "Information on the symptoms and treatments of thyroid cancer"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Tinnitus",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/tinnitus",
+      "summary": "Learn about tinnitus symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Tonsillitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/tonsillitis",
+      "summary": "Learn about tonsilitis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Tooth decay",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/tooth-decay",
+      "summary": "Learn about tooth decay symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Toothache",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/toothache",
+      "summary": "Learn about toothache causes, treatment and prevention"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Transient ischaemic attack (TIA)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/transient-ischaemic-attack-tia",
+      "summary": "Learn about transient ischaemic attack symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Trigeminal neuralgia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/trigeminal-neuralgia",
+      "summary": "Learn about trigeminal neuralgia symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Tuberculosis (TB)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/tuberculosis-tb",
+      "summary": "Learn about tuberculosis (TB) symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Type 1 diabetes",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/type-1-diabetes",
+      "summary": "Learn about type 1 diabetes symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Type 2 diabetes",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/type-2-diabetes",
+      "summary": "Learn about type 2 diabetes symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "T",
+      "name": "Trichomonas infection",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/t/trichomonas-infection",
+      "summary": "Learn about trichomonas infection symptoms and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "U",
+      "name": "Ulcerative colitis",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/u/ulcerative-colitis",
+      "summary": "Learn about ulcerative colitis symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "U",
+      "name": "Underactive thyroid",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/u/underactive-thyroid",
+      "summary": "Learn about underactive thyroid symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "U",
+      "name": "Urinary incontinence",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/u/urinary-incontinence",
+      "summary": "Learn about urinary incontinence symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "U",
+      "name": "Urinary tract infection (UTI)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/u/urinary-tract-infection-uti",
+      "summary": "Learn about urinary tract infection (UTI) symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "U",
+      "name": "Urinary tract infection (UTI) in children",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/u/urinary-tract-infection-uti-in-children",
+      "summary": "UTIs in children are fairly common and are usually treated with antibiotics"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "U",
+      "name": "Urticaria (hives)",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/u/urticaria-hives",
+      "summary": "Learn more about Urticaria (hives)"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "V",
+      "name": "Vaginal cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/v/vaginal-cancer",
+      "summary": "Learn about the symptoms and treatments of vaginal cancer, a rare type of cancer that can develop in a woman's vagina"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "V",
+      "name": "Vaginal thrush",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/v/vaginal-thrush",
+      "summary": "Learn about vaginal thrush symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "V",
+      "name": "Varicose eczema",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/v/varicose-eczema",
+      "summary": "Learn about varicose eczema symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "V",
+      "name": "Venous leg ulcer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/v/venous-leg-ulcer",
+      "summary": "Learn about leg ulcer symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "V",
+      "name": "Vertigo",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/v/vertigo",
+      "summary": "Learn about vertigo causes and treatment"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "V",
+      "name": "Vitamin B12 or folate deficiency anaemia",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/v/vitamin-b12-or-folate-deficiency-anaemia",
+      "summary": "Learn about vitamin B12 or folate deficiency anaemia"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "V",
+      "name": "Vomiting in adults",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/v/vomiting-in-adults",
+      "summary": "Learn about nausea and vomiting in adults, its potential causes and its treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "V",
+      "name": "Vulval cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/v/vulval-cancer",
+      "summary": "Learn about vulval cancer, a rare cancer type that affects women"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "W",
+      "name": "Warts and verrucas",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/w/warts-and-verrucas",
+      "summary": "Learn about warts symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "W",
+      "name": "Whooping cough",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/w/whooping-cough",
+      "summary": "Learn about whooping cough symptoms and treatments"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "W",
+      "name": "Wilms’ tumour",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/w/wilms-tumour",
+      "summary": "Learn more about Wilm's tumour, a type of kidney cancer in children"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "W",
+      "name": "Womb (uterus) cancer",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/w/womb-uterus-cancer",
+      "summary": "Learn about womb (uterus) cancer, also called uterine cancer and endometrial cancer"
+    },
+    {
+      "type": "dtContentLink",
+      "groupName": "Y",
+      "name": "Yellow fever",
+      "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z/y/yellow-fever",
+      "summary": "Learn about yellow fever symptoms and treatments"
+    }
+  ],
+  "apiUrl": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z.json",
+  "url": "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z",
+  "id": 9673,
+  "name": "A to Z",
+  "type": "dtTopic",
+  "summary": "Find an illness or condition by name",
+  "description": "A to Z list of common illnesses and conditions including their symptoms, causes and treatments",
+  "seoPageTitle": "A to Z list of common illnesses and conditions",
+  "seoPageDescription": "A to Z list of common illnesses and conditions- including their symptoms, causes and treatments",
+  "openGraphPageTitle": "A to Z list of common illnesses and conditions",
+  "openGraphPageDescription": "A to Z list of common illnesses and conditions- including their symptoms, causes and treatments",
+  "openGraphImage": {
+    "name": "atoz.png",
+    "link": "https://www.nhsinform.scot/media/4811/atoz.png?anchor=center&mode=crop&width=1200&height=630&rnd=132645994130000000",
+    "alt": "atoz",
+    "imageType": "png"
+  },
+  "cardImage": {
+    "name": "atoz.png",
+    "link": "https://www.nhsinform.scot/media/4811/atoz.png?anchor=center&mode=crop&width=800&height=450&rnd=132645994130000000",
+    "alt": "atoz",
+    "imageType": "png"
+  },
+  "updateDate": "2021-05-04T10:57:38Z"
+}
