@@ -7,9 +7,10 @@ def read_therapy():
     dataset=[]
     i=0
     for item in data:
-        dataset.append(["T"+str(i),item])
+        types=item[0].split("therapy")[0]
+        dataset.append(["T"+str(i),item[0],types])
         i+=1
-    dataset_JSON=pd.DataFrame(dataset,columns=["id","name"])
+    dataset_JSON=pd.DataFrame(dataset,columns=["id","name","type"])
     dataset_JSON.to_json("./dataset/therapy.json",orient="records")
     f.close()
 

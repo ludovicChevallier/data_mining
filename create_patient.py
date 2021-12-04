@@ -58,9 +58,19 @@ def create_patients():
                    id=item["id"]
             id_therapy=data_th[random.randint(0,len(data_th)-1)]["id"]
             trials.append({"id":"TR"+str(i),"start":date,"end":date,"condition":id,"therapy":id_therapy,"sucessful":str(random.randint(0,100))+"%"})
-
-
+        #create the 3 test cases
+        if(j<3):
+            conditions[0]["cured"]= None
+            """""
+            del_trial=""
+            for trial in trials:
+                if(conditions[0]["id"]==trial["condition"]):
+                    del_trial=trial
+            trials.remove(del_trial)
+             """""
         dataset.append(["A"+str(j),names.get_full_name(),conditions,trials])
+           
+
         dataset_JSON=pd.DataFrame(dataset,columns=["id","name","conditions","trials"])
         dataset_JSON.to_json("./dataset/patients.json",orient="records")
 

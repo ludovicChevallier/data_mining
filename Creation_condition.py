@@ -6,8 +6,9 @@ def read_condition():
     data = json.load(f)
     dataset=[]
     for i in range(len(data["sections"])):
-        dataset.append(["C"+str(i),data["sections"][i]["name"]])
-    dataset_JSON=pd.DataFrame(dataset,columns=["id","name"])
+        types=data["sections"][i]["name"].split(" ")[0]
+        dataset.append(["C"+str(i),data["sections"][i]["name"],types])
+    dataset_JSON=pd.DataFrame(dataset,columns=["id","name","type"])
     dataset_JSON.to_json("./dataset/true_condition.json",orient="records")
     f.close()
 
