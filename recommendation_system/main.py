@@ -4,7 +4,8 @@ import json
 import numpy as np
 from scipy import sparse
 from sklearn.metrics.pairwise import cosine_similarity
-
+#create our matrix of patient as row and therapy as collumn filled withe sucessfull
+#a sparse matrix is a matrix containing a lot of 0
 def get_user_item_sparse_matrix(df):
     list_succesful=[]
     list_therapy=[]
@@ -18,15 +19,26 @@ def get_user_item_sparse_matrix(df):
     return sparse_data,list_therapy,list_succesful
     
 def compute_therapy_similarity_count(sparse_matrix, therapy_df, therapy_id):
+    #We use cosine similarity to measure similarity between therapy
+    #return a matrice of cosine similarity as value
     similarity = cosine_similarity(sparse_matrix.T, dense_output = False)
+    row,col=similarity.get_shape()
+    max_value=0.0
+    similarity_therapy_id=0
+    #go to the line that compute the similiarity of the therapy we want to compute
+    for i in range(col):
+        if(similarity[therapy_id,i]>max_value and i!= therapy_id):
+            max_value=similarity[therapy_id,i]
+            similarity_therapy_id=i
     name=""
     id_th=""
+    # print("------")
+    # print(similarity[therapy_id])
     for j in therapy_df.index:
-        if(therapy_df["id"][j]=="T"+str(therapy_id)):
+        if(therapy_df["id"][j]=="T"+str(similarity_therapy_id)):
             name=therapy_df["name"][j]
             id_th=therapy_df["id"][j]
-    no_of_similar_movies = name, similarity[therapy_id].count_nonzero()
-    return no_of_similar_movies,id_th
+    return name, max_value,id_th
 def find_condition_succes(df_train,df_test):
     list_condition=[]
     list_success=[]
@@ -61,7 +73,6 @@ def get_avg_value(id_th,patients_df):
             if(trial["therapy"]==id_th):
                 num+=int(trial["sucessful"].split("%")[0])/100
                 count+=1
-    print(id_th)
     if(count>0):
         num=num/count
     return num
@@ -93,7 +104,7 @@ def main():
     # print(df1)
     # print(unique_condition)
     list_therapy=[]
-    #For each condition that we need to heal, get the sucess and the therpay link to this conditions.
+    #For each condition that we need to heal, get  the therpay link to this conditions which has the avg sucess the highest.
     for i in unique_condition:
         max_therapy=""
         max_success=0.0
@@ -106,15 +117,22 @@ def main():
 
     for i in range(0,len(unique_condition)):
         
-        similar_movies,id_th = compute_therapy_similarity_count(train_sparse_data, therapy_df,list_therapy[i][0] )
+        similar_therapy,percent_similarity,id_th = compute_therapy_similarity_count(train_sparse_data, therapy_df,list_therapy[i][0])
+        print("the therapy "+str(list_therapy[i][0])+" has a similar therapy which is "+id_th+" with "+str(percent_similarity)+" percent of similarity")
         #compute the mean of success for the similar therpay
         avg_new_th=get_avg_value(id_th,patients_df)
-        if(avg_new_th>list_therapy[i][1]):
-            print(avg_new_th,list_therapy[i][1])
-            print("the best similar therapy for the condition"+ unique_condition[i]+" = {}".format(similar_movies)+str(id_th))
+        list_therapy[i][0]="T"+str(list_therapy[i][0])
+        avg_th=get_avg_value(list_therapy[i][0],patients_df)
+        if(avg_new_th>avg_th):
+            print(avg_new_th,avg_th)
+            print("the best similar therapy for the condition "+ unique_condition[i]+" {} with a similarity of "+str(percent_similarity)+"".format(similar_therapy,id_th))
         else:
+            name=""
+            for j in therapy_df.index:
+                if(therapy_df["id"][j]=="T"+str(list_therapy[i][0])):
+                    name=therapy_df["name"][j]
             print(avg_new_th,list_therapy[i][1])
-            print("the best therapy for the condition"+ unique_condition[i]+" = {}".format(similar_movies)+str(list_therapy[i][0]))
+            print("the best therapy for the condition"+ unique_condition[i]+" = {}".format(name,list_therapy[i][0]))
 
 main()
 
