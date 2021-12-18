@@ -42,10 +42,9 @@ def main():
     trainingSet = data.build_full_trainset()
     algo = KNNWithMeans(sim_options=sim_options)
     algo.fit(trainingSet)
-    max_value=0.0
-    best_thera=""
-
     for test in test_cases:
+        max_value=0.0
+        best_thera=""
         list_trials=[]
         for i in range(len(test["trials"])):
             list_trials.append(test["trials"][i]["therapy"])
