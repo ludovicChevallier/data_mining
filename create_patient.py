@@ -16,7 +16,7 @@ def create_patients():
     time_between_dates = end_date - start_date
     days_between_dates = time_between_dates.days
 
-    for j in range(100):
+    for j in range(1000):
         nb_condition=random.randint(1,3)
         conditions=[]
         list_id_condition=[]

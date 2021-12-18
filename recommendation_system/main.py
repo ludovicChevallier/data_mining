@@ -67,7 +67,13 @@ def get_avg_value(id_th,patients_df):
     return num
 
 def main():
-    patients_df = pd.read_json('./dataset/patients.json',orient="records")
+    #https://pub.towardsai.net/recommendation-system-in-depth-tutorial-with-python-for-netflix-using-collaborative-filtering-533ff8a0e444
+    with open("./dataset/dataset.json") as jsonFile:
+        data=json.load(jsonFile)
+        jsonFile.close()
+    data=data["Patients"]
+    patients_df=pd.DataFrame(data,columns=["id","name","conditions","trials"])
+    # patients_df = pd.read_json('./dataset/patients.json',orient="records")
     test_cases=[]
     for j in patients_df.index:
         if(patients_df["conditions"][j][0]["cured"]==None):
@@ -87,6 +93,7 @@ def main():
     # print(df1)
     # print(unique_condition)
     list_therapy=[]
+    #For each condition that we need to heal, get the sucess and the therpay link to this conditions.
     for i in unique_condition:
         max_therapy=""
         max_success=0.0
@@ -100,6 +107,7 @@ def main():
     for i in range(0,len(unique_condition)):
         
         similar_movies,id_th = compute_therapy_similarity_count(train_sparse_data, therapy_df,list_therapy[i][0] )
+        #compute the mean of success for the similar therpay
         avg_new_th=get_avg_value(id_th,patients_df)
         if(avg_new_th>list_therapy[i][1]):
             print(avg_new_th,list_therapy[i][1])
