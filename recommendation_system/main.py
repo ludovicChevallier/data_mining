@@ -118,18 +118,18 @@ def main():
     for i in range(0,len(unique_condition)):
         
         similar_therapy,percent_similarity,id_th = compute_therapy_similarity_count(train_sparse_data, therapy_df,list_therapy[i][0])
-        print("the therapy "+str(list_therapy[i][0])+" has a similar therapy which is "+id_th+" with "+str(percent_similarity)+" percent of similarity")
+        #print("the therapy "+str(list_therapy[i][0])+" has a similar therapy which is "+id_th+" with "+str(percent_similarity)+" percent of similarity")
         #compute the mean of success for the similar therpay
         avg_new_th=get_avg_value(id_th,patients_df)
         list_therapy[i][0]="T"+str(list_therapy[i][0])
         avg_th=get_avg_value(list_therapy[i][0],patients_df)
         if(avg_new_th>avg_th):
             print(avg_new_th,avg_th)
-            print("the best similar therapy for the condition "+ unique_condition[i]+" {} with a similarity of "+str(percent_similarity)+"".format(similar_therapy,id_th))
+            print("the best similar therapy for the condition "+ unique_condition[i]+" is "+similar_therapy,id_th+ " with a similarity of "+str(percent_similarity)+"".format(similar_therapy,id_th))
         else:
             name=""
             for j in therapy_df.index:
-                if(therapy_df["id"][j]=="T"+str(list_therapy[i][0])):
+                if(therapy_df["id"][j]==str(list_therapy[i][0])):
                     name=therapy_df["name"][j]
             print(avg_new_th,list_therapy[i][1])
             print("the best therapy for the condition"+ unique_condition[i]+" = {}".format(name,list_therapy[i][0]))
