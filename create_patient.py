@@ -17,7 +17,7 @@ def create_patients():
     days_between_dates = time_between_dates.days
 
     for j in range(1000):
-        nb_condition=random.randint(1,3)
+        nb_condition=random.randint(1,5)
         conditions=[]
         list_id_condition=[]
         #create a random list of condtions between 1 and 3
@@ -37,9 +37,10 @@ def create_patients():
             date=str(random_date.year)+"-"+str(random_date.month)+"-"+str(random_date.day)
             conditions.append({"id":"PC"+str(i),"diagnosed":date,"cured":date,"kind":id_condition})
         #creation of trial
-        nb_therapy=random.randint(3,5)
+        nb_therapy=random.randint(5,20)
         trials=[]
         list_id_taken=[]
+        list_id_therapy=[]
         for i in range(nb_therapy):
             a=False
             #at least one condition need to be link to one trial
@@ -57,7 +58,12 @@ def create_patients():
                    date=item["diagnosed"] 
                    id=item["id"]
             id_therapy=data_th[random.randint(0,len(data_th)-1)]["id"]
+            while(id_therapy in list_id_therapy):
+                id_therapy=data_th[random.randint(0,len(data_th)-1)]["id"]
+            list_id_therapy.append(id_therapy)
+            
             trials.append({"id":"TR"+str(i),"start":date,"end":date,"condition":id,"therapy":id_therapy,"sucessful":str(random.randint(0,100))+"%"})
+        list_id_therapy=[]
         #create the 3 test cases
         if(j<3):
             conditions[0]["cured"]= None
