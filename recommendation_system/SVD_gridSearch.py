@@ -1,6 +1,6 @@
 import json
 import pandas as pd
-from surprise import KNNWithMeans,accuracy,KNNWithZScore,KNNBaseline,SlopeOne,SVD,CoClustering,SlopeOne,SVDpp
+from surprise import KNNWithMeans,accuracy,KNNWithZScore,KNNBaseline,SlopeOne,SVD,CoClustering,SlopeOne,SVDpp,NMF
 from surprise import Dataset
 from surprise import Reader
 from sklearn.neighbors import NearestNeighbors
@@ -49,6 +49,7 @@ def load_json():
                     list_item_train.append(kind+"/"+trial["therapy"])       
     test_dict={"user": list_user,"item": list_item,"rating": list_rating}
     ratings_dict = {"user": list_user_train,"item": list_item_train,"rating": list_rating_train}
+    print("DATA DONE")
     return ratings_dict,test_cases,test_dict
 
 def main():
@@ -58,13 +59,17 @@ def main():
     data = Dataset.load_from_df(df[["user", "item", "rating"]], reader)
     sim_options = {
     'n_factors': [250],
-    'reg_all': [0.1]
+    'reg_all': [0.1],
+    'lr_all':[0.001],
+    'n_epochs':[50]
     }   
 
     param_grid =sim_options
     #parameters of gridSeachCV:https://surprise.readthedocs.io/en/stable/model_selection.html
-    gs = GridSearchCV(SVDpp, param_grid, measures=["rmse", "mae"], cv=5)
+    print("SEARCH GRID")
+    gs = GridSearchCV(SVD, param_grid, measures=["rmse", "mae"], cv=5)
     gs.fit(data)
+    print("RMSE:")
     print(gs.best_score["rmse"])
     print(gs.best_params["rmse"])
 main()

@@ -57,15 +57,19 @@ def main():
     reader = Reader(rating_scale=(0, 100))
     data = Dataset.load_from_df(df[["user", "item", "rating"]], reader)
     sim_options = {
+        'k':[2],
         'name': [ 'cosine'],
-        'min_support': [1, 5,10,20,30],
-        'user_based': [False]
+        'min_support': [30,50,100],
+        'user_based': [False],
         }
+    bsl_options = {'method': ['als', 'sgd'],
+               'n_epochs': [20,30,40],
+               }
               
 
-    param_grid = {"sim_options": sim_options}
+    param_grid = {"sim_options": sim_options,"bsl_options":bsl_options}
     #parameters of gridSeachCV:https://surprise.readthedocs.io/en/stable/model_selection.html
-    gs = GridSearchCV(KNNWithMeans, param_grid, measures=["rmse", "mae"], cv=5)
+    gs = GridSearchCV(KNNBaseline, param_grid, measures=["rmse", "mae"], cv=5)
     gs.fit(data)
     print(gs.best_score["rmse"])
     print(gs.best_params["rmse"])

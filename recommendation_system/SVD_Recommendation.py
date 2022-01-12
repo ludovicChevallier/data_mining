@@ -57,8 +57,10 @@ def main():
     reader = Reader(rating_scale=(0, 100))
     data = Dataset.load_from_df(df[["user", "item", "rating"]], reader)
     sim_options = {
-    'n_factors': 250,
-    'reg_all': 0.1
+    'n_factors': 500,
+    'reg_all': 0.1,
+    'lr_all': 0.001,
+    'init_std_dev': 0.2
     }   
     param_grid =sim_options
     #parameters of gridSeachCV:https://surprise.readthedocs.io/en/stable/model_selection.html
