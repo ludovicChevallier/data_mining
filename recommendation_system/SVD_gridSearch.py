@@ -28,7 +28,7 @@ def load_json():
     condition_test=""
     
     for j in patients_df.index:
-        if(j<=5000):
+        if(j<=15000):
             if(patients_df["id"][j] in id_patient ):
                 #test_cases.append(patients_df.iloc[j])
                 condition_test=id_condition[id_patient.index(patients_df["id"][j])]
@@ -44,9 +44,11 @@ def load_json():
                     #list_rating.append(int(trial["successful"]))                
                     #list_item.append(kind+"/"+trial["therapy"])
                 #else:
-                    list_user_train.append(patients_df["id"][j])
-                    list_rating_train.append(int(trial["successful"]))                
-                    list_item_train.append(kind+"/"+trial["therapy"])       
+                if(kind==""):
+                    print("ERROR")
+                list_user_train.append(patients_df["id"][j])
+                list_rating_train.append(int(trial["successful"]))                
+                list_item_train.append(kind+"/"+trial["therapy"])       
     test_dict={"user": list_user,"item": list_item,"rating": list_rating}
     ratings_dict = {"user": list_user_train,"item": list_item_train,"rating": list_rating_train}
     print("DATA DONE")
@@ -58,10 +60,10 @@ def main():
     reader = Reader(rating_scale=(0, 100))
     data = Dataset.load_from_df(df[["user", "item", "rating"]], reader)
     sim_options = {
-    'n_factors': [250],
-    'reg_all': [0.1],
-    'lr_all':[0.001],
-    'n_epochs':[50]
+    'n_factors': [10,50,100,200],
+    'reg_all': [0.01,0.001,0.0001,0.00001],
+    'lr_all':[0.01,0.0001,0.00001],
+    'init_std_dev':[0.2,0.3,0.4,0.5]
     }   
 
     param_grid =sim_options

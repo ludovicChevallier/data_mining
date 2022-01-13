@@ -6,7 +6,7 @@ from surprise import Reader
 from sklearn.neighbors import NearestNeighbors
 import numpy as np 
 from surprise.model_selection import train_test_split
-from surprise.model_selection import GridSearchCV
+from surprise.model_selection import GridSearchCV,cross_validate
 #https://realpython.com/build-recommendation-engine-collaborative-filtering/
 #https://towardsdatascience.com/prototyping-a-recommender-system-step-by-step-part-1-knn-item-based-collaborative-filtering-637969614ea
 
@@ -43,9 +43,11 @@ def load_json():
                 #list_rating.append(int(trial["successful"]))                
                 #list_item.append(kind+"/"+trial["therapy"])
             #else:
-                list_user_train.append(patients_df["id"][j])
-                list_rating_train.append(int(trial["successful"]))                
-                list_item_train.append(kind+"/"+trial["therapy"])       
+            if(kind==""):
+                print("ERROR")
+            list_user_train.append(patients_df["id"][j])
+            list_rating_train.append(int(trial["successful"]))                
+            list_item_train.append(kind+"/"+trial["therapy"])       
     test_dict={"user": list_user,"item": list_item,"rating": list_rating}
     ratings_dict = {"user": list_user_train,"item": list_item_train,"rating": list_rating_train}
     print("DATA DONE")
@@ -64,10 +66,11 @@ def main():
     }   
     param_grid =sim_options
     #parameters of gridSeachCV:https://surprise.readthedocs.io/en/stable/model_selection.html
-    algo = SVD(n_factors= 250,reg_all=0.1)
+    algo = SVD(n_factors= 250,reg_all=0.1,lr_all= 0.001, init_std_dev=0.2)
     trainset, testset = train_test_split(data, test_size=0.25)
     predictions = algo.fit(trainset).test(testset)
     print("GENERAL RMSE")
     accuracy.rmse(predictions)
+    #cross_validate(algo, data, measures=['RMSE', 'MAE'], cv=3, verbose=True)
 
 main()

@@ -44,9 +44,11 @@ def load_json():
                     #list_rating.append(int(trial["successful"]))                
                     #list_item.append(kind+"/"+trial["therapy"])
                 #else:
-                    list_user_train.append(patients_df["id"][j])
-                    list_rating_train.append(int(trial["successful"]))                
-                    list_item_train.append(kind+"/"+trial["therapy"])        
+                if(kind==""):
+                    print("ERROR")
+                list_user_train.append(patients_df["id"][j])
+                list_rating_train.append(int(trial["successful"]))                
+                list_item_train.append(kind+"/"+trial["therapy"])        
     test_dict={"user": list_user,"item": list_item,"rating": list_rating}
     ratings_dict = {"user": list_user_train,"item": list_item_train,"rating": list_rating_train}
     return ratings_dict,test_cases,test_dict
@@ -57,19 +59,19 @@ def main():
     reader = Reader(rating_scale=(0, 100))
     data = Dataset.load_from_df(df[["user", "item", "rating"]], reader)
     sim_options = {
-        'k':[2],
-        'name': [ 'cosine'],
-        'min_support': [30,50,100],
+        'k':[1,2,10,30,50],
+        'name': [ 'cosine','pearson'],
+        'min_support': [10,20,30],
         'user_based': [False],
         }
     bsl_options = {'method': ['als', 'sgd'],
                'n_epochs': [20,30,40],
                }
               
-
-    param_grid = {"sim_options": sim_options,"bsl_options":bsl_options}
+    #,"bsl_options":bsl_options
+    param_grid = {"sim_options": sim_options}
     #parameters of gridSeachCV:https://surprise.readthedocs.io/en/stable/model_selection.html
-    gs = GridSearchCV(KNNBaseline, param_grid, measures=["rmse", "mae"], cv=5)
+    gs = GridSearchCV(KNNWithMeans, param_grid, measures=["rmse", "mae"], cv=5)
     gs.fit(data)
     print(gs.best_score["rmse"])
     print(gs.best_params["rmse"])
