@@ -38,10 +38,7 @@ def load_json():
     ratings_dict = {"user": list_user_train,"item": list_item_train,"rating": list_rating_train}
     nb_therapy=len(set(list_item_train))
     nb_user=len(set(list_user_train))
-    df = pd.DataFrame(ratings_dict)
     actual_combinaison=len(set(list_rating_train))
-    print(len(set(list_user_train))+non_condition)
-    print(actual_combinaison)
     total_comb=nb_therapy*nb_user
     print((total_comb-actual_combinaison)/total_comb)
     #we have 79% of emptinesse when we have as a utility matrix : user and therapy
@@ -49,4 +46,34 @@ def load_json():
     numb_duplicates=(len(list_rating_train)-len(set(list_rating_train)))/len(list_rating_train)
     #2% of duplicates
     print(numb_duplicates)
-load_json()
+def load_json_own_DB():
+    with open("./dataset/dataset.json") as jsonFile:
+        data=json.load(jsonFile)
+        jsonFile.close()
+    data=data["Patients"]
+    patients_df=pd.DataFrame(data,columns=["id","name","conditions","trials"])
+    list_rating_train=[]
+    list_item_train=[]
+    list_user_train=[]
+    test_cases=[]
+    for j in patients_df.index:       
+        for trial in patients_df["trials"][j]:
+            kind=""
+            for condition in patients_df["conditions"][j]:
+                if(condition["id"]==trial["condition"]):
+                    kind=condition["kind"]
+            list_user_train.append(patients_df["id"][j])
+            list_rating_train.append(str(patients_df["id"][j])+"/"+kind+"/"+trial["therapy"])
+            list_item_train.append(kind+"/"+trial["therapy"])
+    ratings_dict = {"user": list_user_train,"item": list_item_train,"rating": list_rating_train}
+    nb_therapy=len(set(list_item_train))
+    nb_user=len(set(list_user_train))
+    actual_combinaison=len(set(list_rating_train))
+    total_comb=nb_therapy*nb_user
+    print((total_comb-actual_combinaison)/total_comb)
+    #we have 93% of emptinesse when we have as a utility matrix : user and therapy
+    #we have 99% of emptinesse when we have as a utility matrix : user and cond/therapy
+    numb_duplicates=(len(list_rating_train)-len(set(list_rating_train)))/len(list_rating_train)
+    #0% of duplicates
+    print(numb_duplicates)
+load_json_own_DB()

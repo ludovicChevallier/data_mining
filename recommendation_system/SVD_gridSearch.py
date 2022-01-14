@@ -28,7 +28,7 @@ def load_json():
     condition_test=""
     
     for j in patients_df.index:
-        if(j<=15000):
+        if(j<=5000):
             if(patients_df["id"][j] in id_patient ):
                 #test_cases.append(patients_df.iloc[j])
                 condition_test=id_condition[id_patient.index(patients_df["id"][j])]
@@ -60,13 +60,13 @@ def main():
     reader = Reader(rating_scale=(0, 100))
     data = Dataset.load_from_df(df[["user", "item", "rating"]], reader)
     sim_options = {
-    'n_factors': [10,50,100,200],
-    'reg_all': [0.01,0.001,0.0001,0.00001],
-    'lr_all':[0.01,0.0001,0.00001],
-    'init_std_dev':[0.2,0.3,0.4,0.5]
+    'n_factors': [5,10,50],
+    'reg_all': [0.01,0.001,0.0001],
+    'lr_all':[0.00001,0.000001,0.0000001],
+    'init_std_dev':[0.2]
     }   
 
-    param_grid =sim_options
+    param_grid ={}
     #parameters of gridSeachCV:https://surprise.readthedocs.io/en/stable/model_selection.html
     print("SEARCH GRID")
     gs = GridSearchCV(SVD, param_grid, measures=["rmse", "mae"], cv=5)
