@@ -82,7 +82,8 @@ def main(dataset,id_patient,id_condition):
 data=load_json()
 id_patient=[6,51345,82486,51348,51358,51362,51366,51387,51416,51453]
 id_condition=["pc32","pc277636","pc445475","pc277652","pc277696","pc277711","pc277723","pc277825","pc277986","pc278191"]
-main(data,id_patient[0],id_condition[0])
+for i in range(len(id_patient)):
+    main(data,id_patient[i],id_condition[i])
 
 #def test_set(dataset):
     

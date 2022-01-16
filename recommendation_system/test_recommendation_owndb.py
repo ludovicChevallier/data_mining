@@ -8,9 +8,8 @@ from surprise.model_selection import train_test_split
 from surprise.model_selection import GridSearchCV,cross_validate
 import random
 
-
 def load_json():
-    with open("./dataset/datasetB.json") as jsonFile:
+    with open("./dataset/dataset.json") as jsonFile:
         data=json.load(jsonFile)
         jsonFile.close()
     return data
@@ -28,39 +27,39 @@ def Building_Utility_Matrix_test(data):
     patients_df=pd.DataFrame(data,columns=["age","birthdate","blood_group","conditions","country_of_residence","email","gender","id","name","occupation","trials","type"])
     #take randomly 20% of ids
     list_id=[]
-    while(len(list_id)<1000):
-        id=random.randint(0,100000)
+    while(len(list_id)<200):
+        id=random.randint(0,1000)
         while(id in list_id):
-            id=random.randint(0,100000)
+            id=random.randint(0,1000)
         list_id.append(id)
     i=0
     for j in patients_df.index:
             #(1)delete the youngest condition if it's not cured
-            list_condition = sorted(patients_df["conditions"][j], key=lambda d: d['diagnosed'],reverse=True) 
+            list_condition=patients_df["conditions"][j]
+            for condition in list_condition:
+                condition['diagnosed']=condition['diagnosed'].replace("-","")
+                condition['diagnosed']=int(condition['diagnosed'])
+            list_condition = sorted(list_condition, key=lambda d: d['diagnosed'],reverse=True) 
             #It's possible that some patient doesn't have any condition
             if(len(list_condition)!=0):
-                while(len(list_condition)!=0 and list_condition[0]["cured"]=="Null"):
-                    if(j<=5):
-                        print(list_condition)
+                while(len(list_condition)!=0 and list_condition[0]["cured"]==None):
                     del list_condition[0]
-                    if(j<=5):
-                        print(list_condition)
                 if(len(list_condition)!=0):
                     last_condition=list_condition[0]
                 else:
                     #If there is no condition inside this patient need to take an other patiet
                     if(j in list_id):
-                        id=random.randint(j+1,100000)
+                        id=random.randint(j+1,1000)
                         while(id in list_id):
-                            id=random.randint(j+1,100000)
+                            id=random.randint(j+1,1000)
                         list_id.append(id)
                         list_id.remove(j)
             else:
                 #If there is no condition inside this patient need to take an other patiet
                 if(j in list_id):
-                        id=random.randint(j+1,100000)
+                        id=random.randint(j+1,1000)
                         while(id in list_id):
-                            id=random.randint(j+1,100000)
+                            id=random.randint(j+1,1000)
                         list_id.append(id)
                         list_id.remove(j)
             #Now we hide the therapy that cured the youngest condition
@@ -73,19 +72,24 @@ def Building_Utility_Matrix_test(data):
                 #It means that we take that example in the test_set
                 if(kind!=""):
                     if(j in list_id):
-                        if(trial["condition"]==last_condition["id"] and trial["successful"]==100):
-                            a=True
-                            test_cases.append(patients_df.iloc[j])
-                            list_user_test.append(patients_df["id"][j])
-                            list_rating_test.append(int(trial["successful"]))                
-                            list_item_test.append(kind+"/"+trial["therapy"])  
+                        if(trial["condition"]==last_condition["id"]):
+                            if(a==True):
+                                if(int(trial["sucessful"].split("%")[0])> list_rating_test[-1]):
+                                    list_rating_test[-1]=int(trial["sucessful"].split("%")[0])                
+                                    list_item_test[-1]=kind+"/"+trial["therapy"]
+                            else:
+                                a=True
+                                test_cases.append(patients_df.iloc[j])
+                                list_user_test.append(patients_df["id"][j])
+                                list_rating_test.append(int(trial["sucessful"].split("%")[0]))                
+                                list_item_test.append(kind+"/"+trial["therapy"])  
                         else:
                             list_user_train.append(patients_df["id"][j])
-                            list_rating_train.append(int(trial["successful"]))                
+                            list_rating_train.append(int(trial["sucessful"].split("%")[0]))                
                             list_item_train.append(kind+"/"+trial["therapy"]) 
                     else:
                         list_user_train.append(patients_df["id"][j])
-                        list_rating_train.append(int(trial["successful"]))                
+                        list_rating_train.append(int(trial["sucessful"].split("%")[0]))                
                         list_item_train.append(kind+"/"+trial["therapy"])
             if(a==False and j in list_id):
                 id=random.randint(j+1,100000)
@@ -103,7 +107,7 @@ def main(dataset,k):
     reader = Reader(rating_scale=(0, 100))
     data = Dataset.load_from_df(df[["user", "item", "rating"]], reader)
     trainingSet = data.build_full_trainset()
-    algo = SVD(n_factors =5)
+    algo = SVD()
     #n_factors =100, reg_all= 0.1, lr_all= 0.1,init_std_dev=0.2
     algo.fit(trainingSet)
     i=0
