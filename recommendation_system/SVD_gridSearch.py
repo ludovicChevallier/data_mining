@@ -7,8 +7,6 @@ from sklearn.neighbors import NearestNeighbors
 import numpy as np 
 from surprise.model_selection import train_test_split
 from surprise.model_selection import GridSearchCV
-#https://realpython.com/build-recommendation-engine-collaborative-filtering/
-#https://towardsdatascience.com/prototyping-a-recommender-system-step-by-step-part-1-knn-item-based-collaborative-filtering-637969614ea
 
 def load_json():
     with open("./dataset/datasetB.json") as jsonFile:

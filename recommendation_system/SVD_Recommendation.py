@@ -7,8 +7,6 @@ import numpy as np
 from surprise.model_selection import train_test_split
 from surprise.model_selection import GridSearchCV,cross_validate
 import random
-#https://realpython.com/build-recommendation-engine-collaborative-filtering/
-#https://towardsdatascience.com/prototyping-a-recommender-system-step-by-step-part-1-knn-item-based-collaborative-filtering-637969614ea
 
 def Utility_matrix(data,id_patient):
     therapy=data["Therapies"]
@@ -46,7 +44,6 @@ def main(dataset,id_patient,id_condition):
     data = Dataset.load_from_df(df[["user", "item", "rating"]], reader)
     trainingSet = data.build_full_trainset()
     algo = SVD()
-    #n_factors =100, reg_all= 0.1, lr_all= 0.1,init_std_dev=0.2
     algo.fit(trainingSet)
     for test in test_cases:
         list_trials=[]
@@ -75,16 +72,11 @@ def main(dataset,id_patient,id_condition):
             else:
                 break
         print("---------------")
-    #trainset, testset = train_test_split(data, test_size=0.25)
-    #predictions = algo.fit(trainset).test(testset)
-    #print("GENERAL RMSE")
-    #accuracy.rmse(predictions)
 data=load_json()
 id_patient=[6,51345,82486,51348,51358,51362,51366,51387,51416,51453]
 id_condition=["pc32","pc277636","pc445475","pc277652","pc277696","pc277711","pc277723","pc277825","pc277986","pc278191"]
 main(data,id_patient[0],id_condition[0])
 
-#def test_set(dataset):
     
 
 

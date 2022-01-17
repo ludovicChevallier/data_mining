@@ -1,5 +1,4 @@
 import json
-from tkinter.filedialog import SaveFileDialog
 import pandas as pd
 from surprise import KNNWithMeans,accuracy,KNNWithZScore,KNNBaseline,SlopeOne,SVD,CoClustering,SlopeOne,SVDpp,NMF
 from surprise import Dataset
@@ -39,41 +38,41 @@ def Building_Utility_Matrix_test(data):
     list_id=[ x for (x,y) in list_id[:5000]]    
     #contains the 100000 id with most recent cured conditions
     for j in patients_df.index:
-            #(1)delete the youngest condition if it's not cured
-            list_condition = sorted(patients_df["conditions"][j], key=lambda d: d['diagnosed'],reverse=True) 
-            #It's possible that some patient doesn't have any condition
-            if(len(list_condition)!=0):
-                while(len(list_condition)!=0 and list_condition[0]["cured"]=="Null"):
-                    del list_condition[0]
-                try:
-                    last_condition=list_condition[0]
-                except:
-                    continue
-            else:
-                #If there is no condition inside this patient we continue
+        #(1)delete the youngest condition if it's not cured
+        list_condition = sorted(patients_df["conditions"][j], key=lambda d: d['diagnosed'],reverse=True) 
+        #It's possible that some patient doesn't have any condition
+        if(len(list_condition)!=0):
+            while(len(list_condition)!=0 and list_condition[0]["cured"]=="Null"):
+                del list_condition[0]
+            try:
+                last_condition=list_condition[0]
+            except:
                 continue
-            #Now we hide the therapy that cured the youngest condition
-            for trial in patients_df["trials"][j]:
-                kind=""
-                for condition in list_condition:
-                    if(trial["condition"]==condition["id"]):
-                        kind=condition["kind"]
-                if(kind!=""):
-                    if(j in list_id):
-                        #It means that we take that example in the test_set
-                        if(trial["condition"]==last_condition["id"] and trial["successful"]==100):
-                            test_cases.append(patients_df.iloc[j])
-                            list_user_test.append(patients_df["id"][j])
-                            list_rating_test.append(int(trial["successful"]))                
-                            list_item_test.append(kind+"/"+trial["therapy"])  
-                        else:
-                            list_user_train.append(patients_df["id"][j])
-                            list_rating_train.append(int(trial["successful"]))                
-                            list_item_train.append(kind+"/"+trial["therapy"]) 
+        else:
+            #If there is no condition inside this patient we continue
+            continue
+        #Now we hide the therapy that cured the youngest condition
+        for trial in patients_df["trials"][j]:
+            kind=""
+            for condition in list_condition:
+                if(trial["condition"]==condition["id"]):
+                    kind=condition["kind"]
+            if(kind!=""):
+                if(j in list_id):
+                    #It means that we take that example in the test_set
+                    if(trial["condition"]==last_condition["id"] and trial["successful"]==100):
+                        test_cases.append(patients_df.iloc[j])
+                        list_user_test.append(patients_df["id"][j])
+                        list_rating_test.append(int(trial["successful"]))                
+                        list_item_test.append(kind+"/"+trial["therapy"])  
                     else:
                         list_user_train.append(patients_df["id"][j])
                         list_rating_train.append(int(trial["successful"]))                
-                        list_item_train.append(kind+"/"+trial["therapy"])
+                        list_item_train.append(kind+"/"+trial["therapy"]) 
+                else:
+                    list_user_train.append(patients_df["id"][j])
+                    list_rating_train.append(int(trial["successful"]))                
+                    list_item_train.append(kind+"/"+trial["therapy"])
     ratings_dict = {"user": list_user_train,"item": list_item_train,"rating": list_rating_train}
     test_dict={"user": list_user_test,"item": list_item_test,"rating": list_rating_test}
     return ratings_dict,test_cases,therapy,test_dict
@@ -85,28 +84,21 @@ def main(dataset,k):
     reader = Reader(rating_scale=(0, 100))
     data = Dataset.load_from_df(df[["user", "item", "rating"]], reader)
     trainingSet = data.build_full_trainset()
-    algo = SVD(n_factors =1000)
-    #n_factors =100, reg_all= 0.1, lr_all= 0.1,init_std_dev=0.2
+    algo = SVD()
     print("START FIT")
     algo.fit(trainingSet)
     print("FIT DONE")
     successful_patients=[]
     i=0
     for test in test_cases:
-        #kind=""
         pred_trials={}
         x=test_dict["user"].index(test["id"])
-        #for condition in test["conditions"]:
-            #We want to predict for the last condition
-            #if(condition["kind"]==test_dict["item"][x].split("/")[0]):
         kind=test_dict["item"][x].split("/")[0]
         for thera in therapy:
             elem=kind+"/"+thera["id"]
             prediction = algo.predict(test["id"],elem)
             val=np.round(np.clip(prediction.est,0,100))
             pred_trials[thera["id"]]=val
-        if(i%100==0):
-            print(sorted(pred_trials.items(), key=lambda d: d[1] ,reverse=True))
         keylist = [x for (x,y) in sorted(pred_trials.items(), key=lambda d: d[1] ,reverse=True)]
         if test_dict["item"][x].split("/")[1] in keylist[:k] : 
             successful_patients.append(test_dict["user"])
@@ -115,4 +107,3 @@ def main(dataset,k):
     print(len(successful_patients)/len(test_cases))
 dataset=load_json()
 main(dataset,5)
-#main(dataset,5)
