@@ -7,6 +7,7 @@ import numpy as np
 from surprise.model_selection import train_test_split
 from surprise.model_selection import GridSearchCV,cross_validate
 import random
+import sys
 
 def Utility_matrix(data,id_patient):
     therapy=data["Therapies"]
@@ -31,8 +32,8 @@ def Utility_matrix(data,id_patient):
     ratings_dict = {"user": list_user_train,"item": list_item_train,"rating": list_rating_train}
     print("DATA DONE")
     return ratings_dict,test_cases,therapy
-def load_json():
-    with open("./dataset/datasetB.json") as jsonFile:
+def load_json(path):
+    with open(path) as jsonFile:
         data=json.load(jsonFile)
         jsonFile.close()
     return data
@@ -72,10 +73,17 @@ def main(dataset,id_patient,id_condition):
             else:
                 break
         print("---------------")
-data=load_json()
-id_patient=[6,51345,82486,51348,51358,51362,51366,51387,51416,51453]
-id_condition=["pc32","pc277636","pc445475","pc277652","pc277696","pc277711","pc277723","pc277825","pc277986","pc278191"]
-main(data,id_patient[0],id_condition[0])
+#provide the path to the json
+if(len(sys.argv)==4):
+    data=load_json(sys.argv[1])
+    id_patient=[6,51345,82486,51348,51358,51362,51366,51387,51416,51453]
+    id_condition=["pc32","pc277636","pc445475","pc277652","pc277696","pc277711","pc277723","pc277825","pc277986","pc278191"]
+    #provide the id patient and id condition
+    main(data,int(sys.argv[2]),str(sys.argv[3]))
+    #Example:
+    #Python .\recommendation_system\SVD_Recommendation.py ./dataset/datasetB.json 6 pc32
+else:
+    print("NOT THE GOOD NUMBER OF ARGUMENT")
 
     
 
